@@ -1,0 +1,29 @@
+
+<!-- Add Bootstrap Form -->
+<div>
+  <!-- <div class="form-group">
+    <label for="type">Type</label>
+    <input [(ngModel)]="user.data.type" type="text" class="form-control" id="type">
+  </div> -->
+  <!-- <div class="form-group">
+    <label for="id">ID</label>
+    <input  [(ngModel)]="user.data.id"type="text" class="form-control" id="id">
+  </div> -->
+  <div class="form-group">
+    <label for="attributes.name_first">Name First</label>
+    <input [(ngModel)]="user.data.attributes.name_first" type="text" class="form-control" id="name_first">
+  </div> 
+  <div class="form-group">
+    <label for="name_last">Name last</label>
+    <input [(ngModel)]="user.data.attributes.name_last" type="text" class="form-control" id="name_last">
+  </div>
+  <div class="form-group">
+    <label for="birthday">Birthday</label>
+    <input [(ngModel)]="user.data.attributes.birthday" type="text" class="form-control" id="birthday">
+  </div>
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input [(ngModel)]="user.data.attributes.email" type="text" class="form-control" id="email">
+  </div>
+  <button (click)="saveUser()" class="btn btn-primary btn-block">Submit</button>
+</div>
